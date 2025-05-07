@@ -1,0 +1,83 @@
+.header{
+  justify-content: center;
+  align-items: center;
+  background-color: #F55A5A;
+  padding: 16px;
+  display: flex;
+}
+
+.header > img {
+  width: 30px;
+}
+
+.header__field{
+  padding: 0 16px;
+  font-size: 1.2rem;
+  color: #ffffff;
+  font-weight: 800;
+  flex: 1;
+}
+.contents{
+  padding: 16px;
+  justify-items: center;
+}
+.facts-list{
+  padding-left: 24px;
+}
+
+.facts-list > li {
+  line-height: 1.5;
+}
+
+.facts-list > li::marker{
+  font-size: 1.5rem;
+}
+.travel-log {
+  display: flex;
+  padding: 16px;
+}
+
+.travel-log_img-cont {
+  flex-shrink: 0;
+  width: 125px;
+  height: 168px;
+}
+
+.travel-log_image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.travel-log-card-details{
+  padding: 0 16px;
+}
+
+.location-cont{
+  display: flex;
+  align-items: center; 
+  justify-items: center;
+}
+.container{
+  max-width: 900px;
+  margin: auto;
+}
+.location-cont > img {
+  width: 10px;
+  margin-right: 6px;
+}
+
+.location-details > span {
+  margin-right: 8px;
+}
+.location-details > a {
+  font-size: 12px;
+  text-decoration: underline;
+  color: grey;
+}
+
+.visit-date{
+  font-size: 12px;
+  font-weight: 600;
+}
